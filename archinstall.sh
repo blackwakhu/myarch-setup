@@ -10,6 +10,9 @@ sudo pacman -S jdk-openjdk
 echo "installing node js"
 sudo pacman -S nodejs npm
 
+echo "installing vscode"
+sudo pacman -S code
+
 echo "installing snap"
 sudo pacman -S snapd
 sudo systemctl enable --now snapd.socket
@@ -24,6 +27,5 @@ sudo snap install intellij-idea-community --classic
 echo "installing pycharm"
 sudo snap install pycharm-community --classic
 
-echo "installing vscode"
-sudo pacman -S code
+
 
