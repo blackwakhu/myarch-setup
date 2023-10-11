@@ -13,6 +13,12 @@ sudo pacman -S nodejs npm
 echo "installing vscode"
 sudo pacman -S code
 
+echo "installing ruby"
+sudo pacman -S ruby
+
+echo "installing rust"
+sudo pacman -S rust
+
 echo "installing snap"
 sudo pacman -S snapd
 sudo systemctl enable --now snapd.socket
