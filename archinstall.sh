@@ -19,6 +19,17 @@ sudo pacman -S ruby
 echo "installing rust"
 sudo pacman -S rust
 
+echo "installing mongodb"
+sudo pacman -Syu
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/yay-git.git
+cd yay-git
+makepkg -sri
+yay -S mongodb-bin
+sudo systemctl start mongodb
+sudo systemctl enable mongodb
+cd ..
+
 echo "installing snap"
 sudo pacman -S snapd
 sudo systemctl enable --now snapd.socket
