@@ -51,8 +51,9 @@ sudo apt update
 sudo apt install mono-devel
 sudo apt-get install mono-develop
 
-echo "installing dot net"
-wget https://packages.microsoft.com/config/ubuntu/23.04/packages-microsoft-prod.deb
+# echo "installing dot net"
+# wget https://packages.microsoft.com/config/ubuntu/23.04/packages-microsoft-prod.deb
+# sudo dpkg -i packages-microsoft-prod.deb
 
 echo "installing snapd"
 sudo apt install snapd
