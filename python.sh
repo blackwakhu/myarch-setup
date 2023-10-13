@@ -3,7 +3,7 @@ echo "data science"
 pip install numpy pandas scikit-learn matplotlib seaborn
 
 echo "web development"
-pip install flask django fastapi
+pip install flask django fastapi uvicorn
 
 echo "natural language processing"
 pip install nltk textblob
