@@ -12,4 +12,4 @@ echo "graphical"
 pip install kivy
 
 echo "web scrapping"
-pip install requests beautifulsoup4
+pip install requests beautifulsoup4 Scrapy
