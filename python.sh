@@ -10,3 +10,6 @@ pip install nltk textblob
 
 echo "graphical"
 pip install kivy
+
+echo "web scrapping"
+pip install requests beautifulsoup4
